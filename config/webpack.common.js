@@ -55,7 +55,7 @@ const common = {
   },
   resolve: {
     // Help webpack resolve these extensions in order
-    extensions: ['.ts', '.js'],
+    extensions: ['.ts', '.js', '.wasm'],
   },
   plugins: [
     // Copy static assets from `public` folder to `build` folder

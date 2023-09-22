@@ -11,7 +11,7 @@
     "format": "prettier --write --ignore-unknown \"{config,public,src}/**/*.{html,css,js,ts,json}\""
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.181",
+    "@types/chrome": "^0.0.188",
     "adm-zip": "^0.5.10",
     "copy-webpack-plugin": "^10.2.4",
     "css-loader": "^6.8.1",
@@ -23,5 +23,8 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^4.10.0",
     "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^0.10.6"
   }
 }
